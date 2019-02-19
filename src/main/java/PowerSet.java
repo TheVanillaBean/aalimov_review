@@ -123,7 +123,7 @@ public class PowerSet
      * is not initialized
      */
     // implementation 3
-        public static Set<Set<Integer>> powerSetImplementation3(int[] S) 
+        public static Set<Set<Integer>> powerSetImplementation3(int[] S)
         {
         	if(S == null) 
         	{
