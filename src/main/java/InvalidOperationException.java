@@ -15,7 +15,12 @@ public class InvalidOperationException extends RuntimeException {
                 super();
         }
 
-
+        /**
+         * Method: InvalidOperationException(String message)
+         * Inputs: String message
+         * Returns: InvalidOperationException 
+         * Description: This method returns an InvalidOperationException after calling super() with the message parameter passed in.
+         */
         public InvalidOperationException(String message) {
                 super( message );
         }
